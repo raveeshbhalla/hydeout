@@ -45,6 +45,7 @@ jobs:
       - run:
           name: Build
           command: bundle exec jekyll build --verbose
+
       - run:
           name: Deploy
           command: firebase deploy --token=$FIREBASE_TOKEN --non-interactive
