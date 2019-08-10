@@ -30,8 +30,8 @@ plugins:
 # Custom vars
 google_analytics: UA-42151646-1
 version:            3.7.1
-sidebar_home_link:  false
-# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+sidebar_home_link:  true
+# sidebar_blog_link:  '/life'   # By default, your home page is your blog
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
