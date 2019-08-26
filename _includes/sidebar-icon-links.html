@@ -17,8 +17,15 @@
     <a id="github-link"
        class="icon fa-github" target="_blank" title="Github" aria-label="Github"
        href="{{ site.links.github }}">
+
     </a>
   {% endif %}
+
+  <a id="subscribe-link"
+     class="icon" title="Subscribe" aria-label="Subscribe"
+     href="{{ site.feed.path | default: 'feed.xml' | relative_url }}">
+    {% include svg/feed.svg %}
+  </a>
 
   {% if site.links.email %}
     <a id="email-link"
